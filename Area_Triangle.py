@@ -28,9 +28,9 @@ def area_herons():
     Return: Area.
     '''
 
-    side_1 = float(input("Please input the length of the first side of your triangle: "))
-    side_2 = float(input("Please input the length of the second side of your triangle: "))
-    side_3 = float(input("Please input the length of the third side of your triangle: "))
+    side_1 = float(input("Please enter the length of the first side of your triangle: "))
+    side_2 = float(input("Please enter the length of the second side of your triangle: "))
+    side_3 = float(input("Please enter the length of the third side of your triangle: "))
 
     semi_perimeter = 1/2 * (side_1 + side_2 + side_3)
     area = math.sqrt((semi_perimeter*(semi_perimeter-side_1)*(semi_perimeter-side_2)*(semi_perimeter-side_3)))
