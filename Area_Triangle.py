@@ -4,7 +4,7 @@ print("""Choose a formular you want to use to calculate the area of your triangl
         1. Heron's Formula
         2. 1/2 * base * height
         3. 1/2 * ab * sin(angle)""")
-question = int(input("Which formular do you want to use?(1, 2 or 3): "))
+question = int(input("What formular do you want to use?(1, 2 or 3): "))
 
 def main():
     if question == 1:
