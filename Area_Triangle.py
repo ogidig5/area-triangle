@@ -1,6 +1,6 @@
 import math 
 
-print("""Choose a formular you want to use to calculate the area of your triangle.
+print("""Choose one formular you want to use to calculate the area of your triangle. 
         1. Heron's Formula
         2. 1/2 * base * height
         3. 1/2 * ab * sin(angle)""")
