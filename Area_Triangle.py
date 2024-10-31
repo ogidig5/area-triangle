@@ -6,6 +6,7 @@ print("""Choose one formular you want to use to calculate the area of your trian
         3. 1/2 * ab * sin(angle)""")
 question = int(input("Which formular do you wish to begin with?(1, 2 or 3): "))
 
+
 def main():
     if question == 1:
         herons_formula = area_herons()
